@@ -1,4 +1,4 @@
-package com.moshcloudsspringmetrics.inventory_service.controller;
+package com.moshcloudsspringmetrics.inventory_service.Controller;
 
 import org.springframework.web.bind.annotation.RestController;
 

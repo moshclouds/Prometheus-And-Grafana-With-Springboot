@@ -1,4 +1,4 @@
-package com.moshcloudsspringmetrics.order_service.controller;
+package com.moshcloudsspringmetrics.order_service.Controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
