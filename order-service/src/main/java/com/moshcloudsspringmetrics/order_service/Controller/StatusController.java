@@ -1,4 +1,4 @@
-package com.moshcloudsspringmetrics.inventory_service.Controller;
+package com.moshcloudsspringmetrics.order_service.Controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,10 +19,10 @@ public class StatusController {
         response.put("timestamp", LocalDateTime.now().toString());
         response.put("status", HttpStatus.OK.value());
         response.put("code", HttpStatusCode.valueOf(200));
-        response.put("message", "inventory-service online");
+        response.put("message", "order-service online");
 
         Map<String, Object> data = new HashMap<>();
-        data.put("service", "inventory-service");
+        data.put("service", "order-service");
         data.put("health", "UP");
 
         response.put("data", data);
