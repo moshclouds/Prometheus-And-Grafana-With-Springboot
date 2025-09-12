@@ -3,6 +3,7 @@
 This repository provides a sample Spring Boot application integrated with Prometheus for metrics collection and Grafana for visualization and monitoring. It demonstrates how to expose application metrics using Spring Boot Actuator and Micrometer, scrape them with Prometheus, and create dashboards in Grafana for observing JVM metrics, HTTP requests, and other key performance indicators.
 
 The project includes a basic Spring Boot REST API, configuration files for Prometheus, and a Docker Compose setup to run everything locally.
+
 <br/>
 <img width="4320" height="3360" alt="Image" src="https://github.com/user-attachments/assets/8fe35a94-1aad-4f6c-bd63-217969d56fef" />
 <br/>
